@@ -1,0 +1,47 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3.3V_D
+D Power symbol
+$ENDCMP
+#
+$CMP 3.3V_DBG
+D Power symbol
+$ENDCMP
+#
+$CMP 472192001
+D 1.10mm Pitch microSD Card Connector, Hinge Type, Lead-Free
+$ENDCMP
+#
+$CMP 5V_USB
+D Power symbol
+$ENDCMP
+#
+$CMP 693071010811
+D 9 (8 + 1) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold
+$ENDCMP
+#
+$CMP 749010012A
+D 10/100 Base-T 1-port LAN Transformer with ferrite base, Cu-Ni-Sn contact plating, SMD mount. 
+$ENDCMP
+#
+$CMP 82400274
+D 9V Clamp 6A (8/20µs) Ipp Tvs Diode Surface Mount SC-70-6
+$ENDCMP
+#
+$CMP DBG_USB_VCC
+D Power symbol
+$ENDCMP
+#
+$CMP LC03-3.3
+D ESD Suppressors / TVS Diodes TVS ARRAY, SRFC MNT, 3.3V 750W
+$ENDCMP
+#
+$CMP V_SYS
+D Power symbol
+$ENDCMP
+#
+$CMP chiliSOM
+D An ultra-small, extremely low-power, state-of-the-art module based on ARM Cortex-A8 processor
+$ENDCMP
+#
+#End Doc Library
