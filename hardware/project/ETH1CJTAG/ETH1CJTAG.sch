@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:ETH1CJTAG-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -36,5 +37,11 @@ S 2550 3500 1850 1100
 U 5DA2BBA3
 F0 "USB" 50
 F1 "USB.sch" 50
+$EndSheet
+$Sheet
+S 2550 5150 2000 1250
+U 5D219FE4
+F0 "Power" 50
+F1 "Power.sch" 50
 $EndSheet
 $EndSCHEMATC
