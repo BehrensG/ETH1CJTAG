@@ -21,7 +21,7 @@ D 9 (8 + 1) Position Card Connector Secure Digital - microSD™ Surface Mount, R
 $ENDCMP
 #
 $CMP 749010012A
-D 10/100 Base-T 1-port LAN Transformer with ferrite base, Cu-Ni-Sn contact plating, SMD mount. 
+D 10/100 Base-T 1-port LAN Transformer with ferrite base, Cu-Ni-Sn contact plating, SMD mount.
 $ENDCMP
 #
 $CMP 82400274
@@ -34,6 +34,14 @@ $ENDCMP
 #
 $CMP LC03-3.3
 D ESD Suppressors / TVS Diodes TVS ARRAY, SRFC MNT, 3.3V 750W
+$ENDCMP
+#
+$CMP MAX5902
+D +72V, SOT23/TDFN, Simple Swapper Hot-Swap Controllers
+$ENDCMP
+#
+$CMP TEL10WI_single
+D DC/DC Converter, TEL 10WI Series, 10 Watt
 $ENDCMP
 #
 $CMP V_SYS
