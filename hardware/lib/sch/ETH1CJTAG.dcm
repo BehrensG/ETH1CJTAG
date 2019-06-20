@@ -1,6 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +24V_PSU
+D Power symbol
+$ENDCMP
+#
 $CMP +3.3V_D
+D Power symbol
+$ENDCMP
+#
+$CMP +3.3V_PSU
 D Power symbol
 $ENDCMP
 #
@@ -28,6 +36,14 @@ $CMP 82400274
 D 9V Clamp 6A (8/20µs) Ipp Tvs Diode Surface Mount SC-70-6
 $ENDCMP
 #
+$CMP 824011
+D TVS Diode Array WE-TVS
+$ENDCMP
+#
+$CMP AQY212GS
+D Miniature SOP4-pin type with high capacity up to 1.6A
+$ENDCMP
+#
 $CMP DBG_USB_VCC
 D Power symbol
 $ENDCMP
@@ -42,6 +58,26 @@ $ENDCMP
 #
 $CMP TEL10WI_single
 D DC/DC Converter, TEL 10WI Series, 10 Watt
+$ENDCMP
+#
+$CMP TPS61073
+D TPS6107x 90% Efficient Synchronous Boost Converter With 600-mA Switch
+$ENDCMP
+#
+$CMP USB0_VBUS
+D Power symbol
+$ENDCMP
+#
+$CMP USB0_VCC
+D Power symbol
+$ENDCMP
+#
+$CMP USB1_VBUS
+D Power symbol
+$ENDCMP
+#
+$CMP USB1_VCC
+D Power symbol
 $ENDCMP
 #
 $CMP V_SYS

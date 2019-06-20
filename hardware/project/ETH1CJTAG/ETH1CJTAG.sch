@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -43,5 +43,17 @@ S 2550 5150 2000 1250
 U 5D219FE4
 F0 "Power" 50
 F1 "Power.sch" 50
+$EndSheet
+$Sheet
+S 5450 5200 2050 1100
+U 5D097E39
+F0 "PSU" 50
+F1 "PSU.sch" 50
+$EndSheet
+$Sheet
+S 8150 1250 1400 2500
+U 5D0BB3EB
+F0 "Connector" 50
+F1 "Connector.sch" 50
 $EndSheet
 $EndSCHEMATC
