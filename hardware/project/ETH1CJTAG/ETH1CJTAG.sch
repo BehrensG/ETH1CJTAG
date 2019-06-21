@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -55,5 +55,13 @@ S 8150 1250 1400 2500
 U 5D0BB3EB
 F0 "Connector" 50
 F1 "Connector.sch" 50
+$EndSheet
+Text Notes 750  7150 0    50   ~ 0
+Ferrite 742792031
+$Sheet
+S 7700 4450 1850 950 
+U 5D9F73FD
+F0 "JTAG" 50
+F1 "JTAG.sch" 50
 $EndSheet
 $EndSCHEMATC
