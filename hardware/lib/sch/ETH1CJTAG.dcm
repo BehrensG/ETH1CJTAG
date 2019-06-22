@@ -1,10 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +1.2V_JTAG
+D Power symbol
+$ENDCMP
+#
+$CMP +1.8V_JTAG
+D Power symbol
+$ENDCMP
+#
 $CMP +24V_PSU
 D Power symbol
 $ENDCMP
 #
 $CMP +3.3V_D
+D Power symbol
+$ENDCMP
+#
+$CMP +3.3V_JTAG
 D Power symbol
 $ENDCMP
 #
@@ -44,12 +56,20 @@ $CMP AQY212GS
 D Miniature SOP4-pin type with high capacity up to 1.6A
 $ENDCMP
 #
+$CMP DAC124S085
+D DAC124S085 12-Bit Micro Power Quad Digital-to-Analog Converter With Rail-to-Rail Output
+$ENDCMP
+#
 $CMP DBG_USB_VCC
 D Power symbol
 $ENDCMP
 #
 $CMP LC03-3.3
 D ESD Suppressors / TVS Diodes TVS ARRAY, SRFC MNT, 3.3V 750W
+$ENDCMP
+#
+$CMP LT3030EFE-TRPBF
+D Dual 750mA/250mA Low Dropout, Low Noise, Micropower Linear Regulator
 $ENDCMP
 #
 $CMP MAX5902
@@ -62,6 +82,10 @@ $ENDCMP
 #
 $CMP TPS61073
 D TPS6107x 90% Efficient Synchronous Boost Converter With 600-mA Switch
+$ENDCMP
+#
+$CMP TQ2SA-5V
+D 5 mm Low profile, 2 Form C and 2 A (surfacemount type) relays
 $ENDCMP
 #
 $CMP USB0_VBUS
@@ -80,12 +104,20 @@ $CMP USB1_VCC
 D Power symbol
 $ENDCMP
 #
+$CMP V_ADJ
+D Power symbol
+$ENDCMP
+#
 $CMP V_SYS
 D Power symbol
 $ENDCMP
 #
 $CMP chiliSOM
 D An ultra-small, extremely low-power, state-of-the-art module based on ARM Cortex-A8 processor
+$ENDCMP
+#
+$CMP iCE40HX1K-TQ144
+D The iCE40 LP/HX family of ultra-low power, non-volatile FPGAs has five devices with densities ranging from 384 to 7,680 Look-Up Tables (LUTs).
 $ENDCMP
 #
 #End Doc Library
