@@ -1241,10 +1241,10 @@ F 3 "" H 13500 9050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Device:Ferrite_Bead_Small FB605
 U 1 1 5EAB4593
 P 14050 8000
-F 0 "FB?" V 13813 8000 50  0000 C CNN
+F 0 "FB605" V 13813 8000 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 13904 8000 50  0000 C CNN
 F 2 "" V 13980 8000 50  0001 C CNN
 F 3 "~" H 14050 8000 50  0001 C CNN
