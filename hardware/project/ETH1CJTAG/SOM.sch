@@ -1744,7 +1744,6 @@ NoConn ~ 6050 4250
 NoConn ~ 6050 4350
 NoConn ~ 6050 4450
 NoConn ~ 6050 4550
-NoConn ~ 17700 6150
 Wire Wire Line
 	17700 6350 18500 6350
 Wire Wire Line
@@ -1843,4 +1842,8 @@ NoConn ~ 6050 7550
 NoConn ~ 6050 7650
 NoConn ~ 6050 7750
 NoConn ~ 6050 7850
+Text HLabel 18500 6150 2    50   Output ~ 0
+3V3_JTAG_CTR
+Wire Wire Line
+	17700 6150 18500 6150
 $EndSCHEMATC
