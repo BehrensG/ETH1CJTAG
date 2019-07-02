@@ -1,4 +1,4 @@
-15965408206454334
+15971654429510334
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44079,6 +44079,13 @@ single digit 7 segemnt red/green LED
 10
 10
 ETH1CJTAG
+AQY212GS
+GU (General Use) Type SOP Series 1-Channel (Form A) High Capacity 4-Pin Type
+
+0
+4
+4
+ETH1CJTAG
 C_0603_A_Pad1.05x0.95mm_HandSolder
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 capacitor handsolder
@@ -44184,12 +44191,33 @@ resistor handsolder
 2
 2
 ETH1CJTAG
+SA
+LOW-PROFILE SURFACE-MOUNT RELAY
+
+0
+10
+10
+ETH1CJTAG
 SC70-5
 SC70-5 5pin
 SC70 5pin
 0
 5
 5
+ETH1CJTAG
+TEL10
+
+
+0
+0
+0
+ETH1CJTAG
+WSR
+Power Metal Strip Resistors, Low Value (down to 0.001), Surface Mount
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
