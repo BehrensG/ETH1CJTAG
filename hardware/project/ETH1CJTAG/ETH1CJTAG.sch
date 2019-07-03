@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -401,9 +401,39 @@ F21 "+VOUT" I L 9500 5550 50
 F22 "nRESET" B L 9500 4550 50 
 $EndSheet
 $Sheet
-S 8050 3700 1200 500 
+S 8050 3700 1200 400 
 U 5D993F67
 F0 "Trigger" 50
 F1 "Trigger.sch" 50
+F2 "EXT_TRIG" I R 9250 3800 50 
+F3 "TRIG_EN" I L 8050 3800 50 
+F4 "TRIG_OUT" I L 8050 3900 50 
+F5 "TRIG_IN" O L 8050 4000 50 
+$EndSheet
+Wire Wire Line
+	8050 3800 7900 3800
+Wire Wire Line
+	7900 3800 7900 3450
+Wire Wire Line
+	7900 3450 7050 3450
+Wire Wire Line
+	8050 3900 7800 3900
+Wire Wire Line
+	7800 3900 7800 3550
+Wire Wire Line
+	7800 3550 7050 3550
+Wire Wire Line
+	8050 4000 7700 4000
+Wire Wire Line
+	7700 4000 7700 3650
+Wire Wire Line
+	7700 3650 7050 3650
+Wire Wire Line
+	9250 3800 9500 3800
+$Sheet
+S 4350 3400 1200 650 
+U 5D21999D
+F0 "Test" 50
+F1 "Test.sch" 50
 $EndSheet
 $EndSCHEMATC

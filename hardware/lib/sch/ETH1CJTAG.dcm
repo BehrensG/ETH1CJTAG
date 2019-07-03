@@ -24,12 +24,20 @@ $CMP +3.3V_PSU
 D Power symbol
 $ENDCMP
 #
+$CMP +3.3V_TEST
+D Power symbol
+$ENDCMP
+#
 $CMP 3.3V_DBG
 D Power symbol
 $ENDCMP
 #
 $CMP 472192001
 D 1.10mm Pitch microSD Card Connector, Hinge Type, Lead-Free
+$ENDCMP
+#
+$CMP 5V_ISO_TRIG
+D Power symbol
 $ENDCMP
 #
 $CMP 5V_TRIG
@@ -68,7 +76,7 @@ $CMP DBG_USB_VCC
 D Power symbol
 $ENDCMP
 #
-$CMP GND_TRIG
+$CMP GND_ISO_TRIG
 D Power symbol
 $ENDCMP
 #
