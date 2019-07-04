@@ -1,4 +1,4 @@
-15971654429510334
+15974778946351334
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44184,6 +44184,20 @@ resistor handsolder
 2
 2
 ETH1CJTAG
+R_0603_N_Pad1.05x0.95mm_HandSolder
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+ETH1CJTAG
+R_0603_P_Pad1.05x0.95mm_HandSolder
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+ETH1CJTAG
 R_0805_D_Pad1.15x1.40mm_HandSolder
 Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 resistor handsolder
@@ -44206,11 +44220,11 @@ SC70 5pin
 5
 ETH1CJTAG
 TEL10
+The TEL 10WI series is a range of isolated 10 Watt converters which come in a ultra compact DIP-16 metal package.
 
-
 0
-0
-0
+6
+6
 ETH1CJTAG
 WSR
 Power Metal Strip Resistors, Low Value (down to 0.001), Surface Mount
