@@ -1,4 +1,4 @@
-15974778946351334
+15996654408677334
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44079,12 +44079,54 @@ single digit 7 segemnt red/green LED
 10
 10
 ETH1CJTAG
+7448014501
+WE-CMBNC Common Mode PowerLine Choke Nanocrystalline
+
+0
+4
+4
+ETH1CJTAG
+150121M153000
+WL-SFCD  SMD Full-color ChipLED Diffused
+
+0
+4
+4
+ETH1CJTAG
+744031004
+
+
+0
+0
+0
+ETH1CJTAG
+744233121
+ Filter, Line, Common Mode, WE-CNSW Series, 120 ohm, 280 mA, 2mm x 1.2mm x 1.2mm 
+
+0
+4
+4
+ETH1CJTAG
+749010012A
+Transformer, LAN, 1 Port, 10/100 Base-T, 1500VAC, 350µH, 1:1 Turn Ratio
+
+0
+16
+16
+ETH1CJTAG
 AQY212GS
 GU (General Use) Type SOP Series 1-Channel (Form A) High Capacity 4-Pin Type
 
 0
 4
 4
+ETH1CJTAG
+CW252016
+CW252016 Series - High Q Chip Inductors
+
+0
+2
+2
 ETH1CJTAG
 C_0603_A_Pad1.05x0.95mm_HandSolder
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -44121,12 +44163,40 @@ capacitor handsolder
 2
 2
 ETH1CJTAG
+C_1206_AB_Pad1.42x1.75mm_HandSolder
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+ETH1CJTAG
+DO_214AA_REV
+
+
+0
+2
+2
+ETH1CJTAG
+Fuse_SMD2920
+MF-LSMFSeries-PTCResettableFuses
+Fuse SMD2920
+0
+2
+2
+ETH1CJTAG
 GCS2
 ARM Cortex-A8 System On Module
 
 0
 184
 184
+ETH1CJTAG
+ILQ74-X009T
+The ILD74, ILQ74 is an optically coupled pair with a GaAIAsinfrared  LED  and  a  silicon  NPN  phototransistor.
+
+0
+16
+16
 ETH1CJTAG
 R_0603_E_Pad1.05x0.95mm_HandSolder
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -44205,6 +44275,13 @@ resistor handsolder
 2
 2
 ETH1CJTAG
+R_0805_R_Pad1.15x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+ETH1CJTAG
 SA
 LOW-PROFILE SURFACE-MOUNT RELAY
 
@@ -44218,6 +44295,27 @@ SC70 5pin
 0
 5
 5
+ETH1CJTAG
+SO8E
+module CMS SOJ 8 pins etroit
+CMS SOJ
+0
+8
+8
+ETH1CJTAG
+Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows
+
+
+0
+66
+65
+ETH1CJTAG
+TDA06H0B1
+Ultra-miniature Surface Mount Half-pitch DIP Switches
+
+0
+12
+12
 ETH1CJTAG
 TEL10
 The TEL 10WI series is a range of isolated 10 Watt converters which come in a ultra compact DIP-16 metal package.
