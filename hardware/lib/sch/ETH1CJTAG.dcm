@@ -92,6 +92,10 @@ $CMP LT3030EFE-TRPBF
 D Dual 750mA/250mA Low Dropout, Low Noise, Micropower Linear Regulator
 $ENDCMP
 #
+$CMP LT3080EQ
+D Adjustable1.1A Single Resistor Low Dropout Regulator, 5-Loead Plastic DD-Pak
+$ENDCMP
+#
 $CMP MAX5902
 D +72V, SOT23/TDFN, Simple Swapper Hot-Swap Controllers
 $ENDCMP
