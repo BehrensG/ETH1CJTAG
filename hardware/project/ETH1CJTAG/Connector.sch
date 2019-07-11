@@ -161,49 +161,131 @@ NoConn ~ 4850 5500
 NoConn ~ 4850 5600
 NoConn ~ 4850 5900
 NoConn ~ 4850 6000
-Text HLabel 4700 1300 0    50   BiDi ~ 0
+Text HLabel 4750 2100 0    50   BiDi ~ 0
 TRST
-Text HLabel 4700 1500 0    50   BiDi ~ 0
+Text HLabel 4750 2300 0    50   BiDi ~ 0
 TDI
-Text HLabel 4700 1700 0    50   BiDi ~ 0
+Text HLabel 4750 2500 0    50   BiDi ~ 0
 TMS
-Text HLabel 4700 1900 0    50   BiDi ~ 0
+Text HLabel 4750 2700 0    50   BiDi ~ 0
 TCK
-Text HLabel 4700 2100 0    50   BiDi ~ 0
+Text HLabel 4750 2900 0    50   BiDi ~ 0
 RCTK
-Text HLabel 4700 2300 0    50   BiDi ~ 0
+Text HLabel 4750 3100 0    50   BiDi ~ 0
 TDO
-Text HLabel 4700 2500 0    50   BiDi ~ 0
+Text HLabel 4750 3300 0    50   BiDi ~ 0
 TSRST
 Wire Wire Line
-	4850 1300 4800 1300
+	4900 2100 4850 2100
 Wire Wire Line
-	4850 1500 4800 1500
+	4900 2300 4850 2300
 Wire Wire Line
-	4850 1700 4800 1700
+	4900 2500 4850 2500
 Wire Wire Line
-	4850 1900 4800 1900
+	4900 2700 4850 2700
 Wire Wire Line
-	4850 2100 4800 2100
+	4900 2900 4850 2900
 Wire Wire Line
-	4850 2300 4800 2300
+	4900 3100 4850 3100
 Wire Wire Line
-	4850 2500 4800 2500
+	4900 3300 4850 3300
 Wire Wire Line
-	4850 900  4800 900 
-Text HLabel 4700 900  0    50   BiDi ~ 0
+	4900 1700 4850 1700
+Text HLabel 4750 1700 0    50   BiDi ~ 0
 JTAG_VCC
-Text HLabel 4700 1100 0    50   BiDi ~ 0
+Text HLabel 4750 1900 0    50   BiDi ~ 0
 JTAG_GND
 Wire Wire Line
-	4700 1100 4800 1100
+	4750 1900 4850 1900
+Wire Wire Line
+	4900 1800 4850 1800
+Wire Wire Line
+	4850 1800 4850 1700
+Connection ~ 4850 1700
+Wire Wire Line
+	4850 1700 4750 1700
+Wire Wire Line
+	4900 2000 4850 2000
+Wire Wire Line
+	4850 2000 4850 1900
+Connection ~ 4850 1900
+Wire Wire Line
+	4850 1900 4900 1900
+Wire Wire Line
+	4900 2200 4850 2200
+Wire Wire Line
+	4850 2200 4850 2100
+Connection ~ 4850 2100
+Wire Wire Line
+	4850 2100 4750 2100
+Wire Wire Line
+	4900 2400 4850 2400
+Wire Wire Line
+	4850 2400 4850 2300
+Connection ~ 4850 2300
+Wire Wire Line
+	4850 2300 4750 2300
+Wire Wire Line
+	4900 2600 4850 2600
+Wire Wire Line
+	4850 2600 4850 2500
+Connection ~ 4850 2500
+Wire Wire Line
+	4850 2500 4750 2500
+Wire Wire Line
+	4900 2800 4850 2800
+Wire Wire Line
+	4850 2800 4850 2700
+Connection ~ 4850 2700
+Wire Wire Line
+	4850 2700 4750 2700
+Wire Wire Line
+	4900 3000 4850 3000
+Wire Wire Line
+	4850 3000 4850 2900
+Connection ~ 4850 2900
+Wire Wire Line
+	4850 2900 4750 2900
+Wire Wire Line
+	4900 3200 4850 3200
+Wire Wire Line
+	4850 3200 4850 3100
+Connection ~ 4850 3100
+Wire Wire Line
+	4850 3100 4750 3100
+Wire Wire Line
+	4900 3400 4850 3400
+Wire Wire Line
+	4850 3400 4850 3300
+Connection ~ 4850 3300
+Wire Wire Line
+	4850 3300 4750 3300
+Text HLabel 4650 900  0    50   Input ~ 0
++VOUT
+Text HLabel 4650 1100 0    50   BiDi ~ 0
+SENSE
+Wire Wire Line
+	4650 900  4800 900 
+Wire Wire Line
+	4650 1100 4800 1100
+Text HLabel 4650 1300 0    50   Input ~ 0
+-VOUT
 Wire Wire Line
 	4850 1000 4800 1000
 Wire Wire Line
 	4800 1000 4800 900 
 Connection ~ 4800 900 
 Wire Wire Line
-	4800 900  4700 900 
+	4800 900  4850 900 
+Wire Wire Line
+	4650 1300 4800 1300
+Wire Wire Line
+	4850 1400 4800 1400
+Wire Wire Line
+	4800 1400 4800 1300
+Connection ~ 4800 1300
+Wire Wire Line
+	4800 1300 4850 1300
 Wire Wire Line
 	4850 1200 4800 1200
 Wire Wire Line
@@ -211,126 +293,54 @@ Wire Wire Line
 Connection ~ 4800 1100
 Wire Wire Line
 	4800 1100 4850 1100
-Wire Wire Line
-	4850 1400 4800 1400
-Wire Wire Line
-	4800 1400 4800 1300
-Connection ~ 4800 1300
-Wire Wire Line
-	4800 1300 4700 1300
-Wire Wire Line
-	4850 1600 4800 1600
-Wire Wire Line
-	4800 1600 4800 1500
-Connection ~ 4800 1500
-Wire Wire Line
-	4800 1500 4700 1500
-Wire Wire Line
-	4850 1800 4800 1800
-Wire Wire Line
-	4800 1800 4800 1700
-Connection ~ 4800 1700
-Wire Wire Line
-	4800 1700 4700 1700
-Wire Wire Line
-	4850 2000 4800 2000
-Wire Wire Line
-	4800 2000 4800 1900
-Connection ~ 4800 1900
-Wire Wire Line
-	4800 1900 4700 1900
-Wire Wire Line
-	4850 2200 4800 2200
-Wire Wire Line
-	4800 2200 4800 2100
-Connection ~ 4800 2100
-Wire Wire Line
-	4800 2100 4700 2100
-Wire Wire Line
-	4850 2400 4800 2400
-Wire Wire Line
-	4800 2400 4800 2300
-Connection ~ 4800 2300
-Wire Wire Line
-	4800 2300 4700 2300
-Wire Wire Line
-	4850 2600 4800 2600
-Wire Wire Line
-	4800 2600 4800 2500
-Connection ~ 4800 2500
-Wire Wire Line
-	4800 2500 4700 2500
-Text HLabel 4650 3100 0    50   Input ~ 0
-+VOUT
-Text HLabel 4650 3300 0    50   BiDi ~ 0
-SENSE
-Wire Wire Line
-	4650 3100 4800 3100
-Wire Wire Line
-	4650 3300 4800 3300
-Text HLabel 4650 3500 0    50   Input ~ 0
--VOUT
-Wire Wire Line
-	4850 3200 4800 3200
-Wire Wire Line
-	4800 3200 4800 3100
-Connection ~ 4800 3100
-Wire Wire Line
-	4800 3100 4850 3100
-Wire Wire Line
-	4650 3500 4800 3500
-Wire Wire Line
-	4850 3600 4800 3600
-Wire Wire Line
-	4800 3600 4800 3500
-Connection ~ 4800 3500
-Wire Wire Line
-	4800 3500 4850 3500
-Wire Wire Line
-	4850 3400 4800 3400
-Wire Wire Line
-	4800 3400 4800 3300
-Connection ~ 4800 3300
-Wire Wire Line
-	4800 3300 4850 3300
 NoConn ~ 4850 5200
 NoConn ~ 4850 5100
 NoConn ~ 4850 4400
 NoConn ~ 4850 4300
-NoConn ~ 4850 2900
-NoConn ~ 4850 3000
 Wire Wire Line
-	4850 2800 4800 2800
+	4900 3600 4850 3600
 Wire Wire Line
-	4800 2800 4800 2700
+	4850 3600 4850 3500
 Wire Wire Line
-	4800 2700 4850 2700
-Text HLabel 4700 2700 0    50   BiDi ~ 0
+	4850 3500 4900 3500
+Text HLabel 4750 3500 0    50   BiDi ~ 0
 nRESET
 Wire Wire Line
-	4700 2700 4800 2700
-Connection ~ 4800 2700
-Text HLabel 4700 5700 0    50   Output ~ 0
+	4750 3500 4850 3500
+Connection ~ 4850 3500
+Text HLabel 4700 4100 0    50   Output ~ 0
 EXT_TRIG
 Wire Wire Line
-	4850 5700 4700 5700
+	4850 4100 4700 4100
 $Comp
 L ETH1CJTAG:GND_ISO_TRIG #PWR805
 U 1 1 5D418C69
-P 4750 5800
-F 0 "#PWR805" H 4750 5800 50  0001 C CNN
-F 1 "GND_ISO_TRIG" V 4745 5672 50  0000 R CNN
-F 2 "" H 4750 5800 50  0001 C CNN
-F 3 "" H 4750 5800 50  0001 C CNN
-	1    4750 5800
+P 4750 4200
+F 0 "#PWR805" H 4750 4200 50  0001 C CNN
+F 1 "GND_ISO_TRIG" V 4745 4072 50  0000 R CNN
+F 2 "" H 4750 4200 50  0001 C CNN
+F 3 "" H 4750 4200 50  0001 C CNN
+	1    4750 4200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4750 5800 4850 5800
+	4750 4200 4850 4200
 NoConn ~ 4850 3700
 NoConn ~ 4850 3800
 NoConn ~ 4850 3900
 NoConn ~ 4850 4000
-NoConn ~ 4850 4200
-NoConn ~ 4850 4100
+NoConn ~ 4850 1500
+NoConn ~ 4850 1600
+Connection ~ 4850 1800
+Connection ~ 4850 2000
+Connection ~ 4850 2200
+Connection ~ 4850 2400
+Connection ~ 4850 2600
+Connection ~ 4850 2800
+Connection ~ 4850 3000
+Connection ~ 4850 3200
+Connection ~ 4850 3400
+Connection ~ 4850 3600
+NoConn ~ 4850 5700
+NoConn ~ 4850 5800
 $EndSCHEMATC
