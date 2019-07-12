@@ -2557,11 +2557,7 @@ F 3 "~" H 3050 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 8450 3650 8450
-Wire Wire Line
 	3950 8100 3950 8450
-Wire Wire Line
-	3050 8450 3350 8450
 Wire Wire Line
 	3050 8000 3050 8450
 $Comp
@@ -3088,7 +3084,7 @@ F 1 "ECS-120-8-36-CKM-TR" H 3000 7800 50  0000 L CNN
 F 2 "ETH1CJTAG:ECX-2236" H 3500 8450 50  0001 C CNN
 F 3 "~" H 3500 8450 50  0001 C CNN
 	1    3500 8450
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L ETH1CJTAG:LT3080EQ U601
@@ -3171,4 +3167,8 @@ F 3 "~" H 13700 2400 50  0001 C CNN
 	1    13700 2400
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3650 8450 3950 8450
+Wire Wire Line
+	3050 8450 3350 8450
 $EndSCHEMATC
