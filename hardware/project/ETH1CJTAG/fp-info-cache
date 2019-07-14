@@ -1,4 +1,4 @@
-16007592636402334
+16009155652694334
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44134,6 +44134,13 @@ GU (General Use) Type SOP Series 1-Channel (Form A) High Capacity 4-Pin Type
 0
 4
 4
+ETH1CJTAG
+CDRH74
+SMD Power Inductor
+
+0
+2
+2
 ETH1CJTAG
 CW252016
 CW252016 Series - High Q Chip Inductors
