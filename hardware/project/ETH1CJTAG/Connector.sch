@@ -40,19 +40,19 @@ F 3 "" H 4800 7200 50  0001 C CNN
 	1    4800 7200
 	0    -1   1    0   
 $EndComp
-Text HLabel 4750 5000 0    50   BiDi ~ 0
+Text HLabel 4750 4800 0    50   BiDi ~ 0
 TX+
 Wire Wire Line
 	4750 5000 4900 5000
-Text HLabel 4750 4800 0    50   BiDi ~ 0
+Text HLabel 4750 5000 0    50   BiDi ~ 0
 TX-
 Wire Wire Line
 	4750 4800 4900 4800
-Text HLabel 4750 4900 0    50   BiDi ~ 0
+Text HLabel 4750 4700 0    50   BiDi ~ 0
 RX+
 Wire Wire Line
 	4750 4900 4900 4900
-Text HLabel 4750 4700 0    50   BiDi ~ 0
+Text HLabel 4750 4900 0    50   BiDi ~ 0
 RX-
 Wire Wire Line
 	4750 4700 4900 4700
@@ -333,4 +333,50 @@ NoConn ~ 4900 1500
 NoConn ~ 4900 1600
 NoConn ~ 4900 5700
 NoConn ~ 4900 5800
+$Comp
+L Connector:RJ45_Shielded J802
+U 1 1 5D2D6700
+P 1650 2100
+F 0 "J802" H 1650 2750 50  0000 C CNN
+F 1 "615008145221" H 1650 2650 50  0000 C CNN
+F 2 "ETH1CJTAG:615008145221" V 1650 2125 50  0001 C CNN
+F 3 "~" V 1650 2125 50  0001 C CNN
+	1    1650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5D2D9227
+P 1650 2650
+AR Path="/5D05B8E6/5D2D9227" Ref="#PWR?"  Part="1" 
+AR Path="/5D0BB3EB/5D2D9227" Ref="#PWR0801"  Part="1" 
+F 0 "#PWR0801" H 1650 2400 50  0001 C CNN
+F 1 "Earth" H 1650 2500 50  0001 C CNN
+F 2 "" H 1650 2650 50  0001 C CNN
+F 3 "~" H 1650 2650 50  0001 C CNN
+	1    1650 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2650 1650 2600
+Text HLabel 2200 2400 2    50   BiDi ~ 0
+TX+
+Wire Wire Line
+	2200 2300 2050 2300
+Text HLabel 2200 2300 2    50   BiDi ~ 0
+TX-
+Wire Wire Line
+	2200 2400 2050 2400
+Text HLabel 2200 2200 2    50   BiDi ~ 0
+RX+
+Wire Wire Line
+	2200 1900 2050 1900
+Text HLabel 2200 1900 2    50   BiDi ~ 0
+RX-
+Wire Wire Line
+	2200 2200 2050 2200
+NoConn ~ 2050 2100
+NoConn ~ 2050 2000
+NoConn ~ 2050 1800
+NoConn ~ 2050 1700
 $EndSCHEMATC

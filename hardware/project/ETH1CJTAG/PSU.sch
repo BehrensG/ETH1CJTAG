@@ -2098,7 +2098,6 @@ F 3 "~" H 6700 7450 50  0001 C CNN
 $EndComp
 NoConn ~ 5800 7600
 NoConn ~ 5800 7100
-NoConn ~ 5800 7000
 NoConn ~ 5800 6900
 Wire Wire Line
 	1050 7900 1250 7900
@@ -2411,8 +2410,8 @@ F_USB0_D_N
 Text HLabel 7350 8000 2    50   BiDi ~ 0
 F_USB0_D_P
 Wire Wire Line
-	6350 8500 5800 8500
-Text Label 6350 8500 2    50   ~ 0
+	6350 7000 5800 7000
+Text Label 6350 7000 2    50   ~ 0
 CLIM
 Wire Wire Line
 	5800 8600 6350 8600
@@ -3176,4 +3175,5 @@ Wire Wire Line
 Wire Wire Line
 	13550 6500 13950 6500
 Connection ~ 13950 6500
+NoConn ~ 5800 8500
 $EndSCHEMATC
