@@ -1,4 +1,4 @@
-update=Sun Jul 14 20:33:00 2019
+update=Wed Jul 17 17:39:51 2019
 version=1
 last_client=kicad
 [general]
@@ -74,11 +74,11 @@ Name=Top
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=Power
+Name=GND
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=GND
+Name=Power
 Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
