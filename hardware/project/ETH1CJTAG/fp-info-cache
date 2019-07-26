@@ -1,4 +1,4 @@
-16010718867528334
+16012283032750334
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44085,6 +44085,13 @@ WE-CMBNC Common Mode PowerLine Choke Nanocrystalline
 0
 4
 4
+ETH1CJTAG
+60817-096
+
+
+0
+1
+1
 ETH1CJTAG
 150121M153000
 WL-SFCD  SMD Full-color ChipLED Diffused
