@@ -48,8 +48,20 @@ $CMP 5V_USB
 D Power symbol
 $ENDCMP
 #
+$CMP 60817-096
+D PCB HANDLE A
+$ENDCMP
+#
 $CMP 693071010811
 D 9 (8 + 1) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold
+$ENDCMP
+#
+$CMP 744233121
+D WE-CNSW-HF SMD CommonMode Line Filter (High Frequency)
+$ENDCMP
+#
+$CMP 7448014501
+D WE-CMBNC Common Mode PowerLine Choke Nanocrystalline
 $ENDCMP
 #
 $CMP 749010012A
