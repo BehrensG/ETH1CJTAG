@@ -1,4 +1,4 @@
-(module CW252016 (layer F.Cu) (tedit 5D22664A)
+(module CW252016 (layer F.Cu) (tedit 5D59C6EC)
   (descr "CW252016 Series - High Q Chip Inductors")
   (fp_text reference REF** (at 0 -1.75) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.12)))
@@ -6,6 +6,10 @@
   (fp_text value CW252016-R33G (at 0 2) (layer F.Fab)
     (effects (font (size 0.6 0.6) (thickness 0.12)))
   )
+  (fp_line (start -1.7 -1.4) (end 1.7 -1.4) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 1.7 -1.4) (end 1.7 1.4) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 1.7 1.4) (end -1.7 1.4) (layer F.CrtYd) (width 0.12))
+  (fp_line (start -1.7 1.4) (end -1.7 -1.4) (layer F.CrtYd) (width 0.12))
   (pad 2 smd rect (at 0.925 0) (size 1 2.3) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.925 0) (size 1 2.3) (layers F.Cu F.Paste F.Mask))
   (model Inductors_SMD.3dshapes/CW252016.wrl
