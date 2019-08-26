@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ETH1CJTAG-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -2128,9 +2128,6 @@ F 3 "" H 5600 2050 50  0001 C CNN
 	1    5600 2050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5600 2050 6000 2050
-Connection ~ 6000 2050
 $Comp
 L Device:R R1149
 U 1 1 5D4272BA
@@ -2170,4 +2167,20 @@ Wire Wire Line
 Connection ~ 10400 10500
 Wire Wire Line
 	10400 10500 10400 10400
+$Comp
+L Device:R R1150
+U 1 1 5DACB7B1
+P 5800 2050
+F 0 "R1150" V 5700 2050 50  0000 C CNN
+F 1 "500" V 5800 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5730 2050 50  0001 C CNN
+F 3 "~" H 5800 2050 50  0001 C CNN
+	1    5800 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 2050 6000 2050
+Connection ~ 6000 2050
+Wire Wire Line
+	5650 2050 5600 2050
 $EndSCHEMATC

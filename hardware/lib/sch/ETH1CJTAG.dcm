@@ -76,6 +76,10 @@ $CMP 824011
 D TVS Diode Array WE-TVS
 $ENDCMP
 #
+$CMP AD5110
+D Single-Channel, 128-/64-/32-Position, I2C, ±8% Resistor Tolerance, Nonvolatile Digital Potentiometer
+$ENDCMP
+#
 $CMP AQY212GS
 D Miniature SOP4-pin type with high capacity up to 1.6A
 $ENDCMP
